@@ -250,6 +250,7 @@ paket-files/
 
 # Fable
 src/**/*.fs.js
+/dist
 
 # FAKE - F# Make
 .fake/

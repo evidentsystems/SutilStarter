@@ -3,7 +3,7 @@
   "scripts": {
     "postinstall": "dotnet tool restore",
     "start": "dotnet fable watch src --run vite",
-    "build": "dotnet fable src && webpack"
+    "build": "dotnet fable src && vite build"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.5",
