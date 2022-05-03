@@ -27,7 +27,8 @@ let getCounter m = m.count
 let app () =
     let model, dispatch = () |> Store.makeElmish init update ignore
 
-    Html.div [ Html.h1 [ class' "text-2xl font-bold underline"
+    Html.div [ class' "container mx-auto"
+               Html.h1 [ class' "text-2xl font-bold underline"
                          Html.text "Hello world!" ]
                Html.div [ Html.p [ Bind.fragment (model |> Store.map getCounter)
                                    <| fun n -> Html.text $"Counter = {n}" ] ]
