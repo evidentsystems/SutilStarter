@@ -249,7 +249,7 @@ _Pvt_Extensions
 paket-files/
 
 # Fable
-src/**/*.fs.js
+/js
 /dist
 
 # FAKE - F# Make
