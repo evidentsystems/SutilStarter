@@ -1,4 +1,4 @@
 module.exports = {
-  content: ['./index.html', './js/**/*.js'],
+  content: ['./index.html', './src/**/*.fs'],
   plugins: [require("@tailwindcss/typography"), require("daisyui")],
 };
