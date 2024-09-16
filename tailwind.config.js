@@ -1,7 +1,4 @@
 module.exports = {
-  content: ["./index.html", "./src/**/*.fs"],
-  theme: {
-    extend: {},
-  },
-  plugins: [require("daisyui")],
+  content: ['./index.html', './src/**/*.fs'],
+  plugins: [require("@tailwindcss/typography"), require("daisyui")],
 };
